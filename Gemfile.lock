@@ -187,7 +187,8 @@ GEM
     orm_adapter (0.5.0)
     popper_js (1.16.0)
     public_suffix (4.0.3)
-    puma (3.12.2)
+    puma (4.3.11)
+      nio4r (~> 2.0)
     pundit (2.1.0)
       activesupport (>= 3.0.0)
     rack (2.1.2)
@@ -316,7 +317,7 @@ DEPENDENCIES
   material-sass (= 4.1.1)
   material_icons
   mini_racer
-  puma (~> 3.11)
+  puma (~> 4.3)
   pundit
   rack-cors
   rails (~> 5.2)
